@@ -1,6 +1,6 @@
 # FreeByte
 
-FreeByte is a Python-based Telegram platform for selling and managing **VPN services** and **virtual phone numbers**, with wallet payments, referrals, admin tooling, and webhook-powered automations.
+FreeByte is a Python-based Telegram platform for selling and managing and **virtual phone numbers**, with wallet payments, referrals, admin tooling, and webhook-powered automations.
 
 It combines three runtime components:
 

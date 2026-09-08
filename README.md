@@ -13,7 +13,6 @@ It combines three runtime components:
 ## Highlights
 
 - Multi-service Telegram bot built on `python-telegram-bot`
-- VPN purchase, upgrade, revoke, and usage/statistics flows
 - Virtual number purchase + SMS retrieval workflow
 - Wallet and payment integrations (ZarinPal + Cryptomus)
 - Admin operations panel flows and ticket/support handling
@@ -46,7 +45,6 @@ FreeByte/
 ├── requirements.txt            # Python dependencies
 ├── templates/                  # Payment result HTML pages
 ├── admin/                      # Admin handlers and utilities
-├── vpn_service/                # VPN domain logic
 ├── virtual_number/             # Virtual number domain logic
 ├── dialogues/                  # Localized bot texts
 ├── crud/                       # Data access layer
@@ -141,7 +139,6 @@ For production, run each component under a process manager (`systemd`, `supervis
 
 - **User onboarding:** `/start` with language selection and optional referral handling
 - **Wallet:** credit purchase + transaction tracking
-- **VPN services:** buy, view details, revoke/remove, and scheduled notifications
 - **Virtual numbers:** buy numbers and receive verification SMS updates
 - **Payments:** callback verification through FastAPI endpoints
 - **Background jobs:** asynchronous payment handling and notification/report tasks via Celery
